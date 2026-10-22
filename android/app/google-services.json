@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "538149157162",
+    "project_id": "notification-test-55875",
+    "storage_bucket": "notification-test-55875.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538149157162:android:9256e0f733cdf4b4e28653",
+        "android_client_info": {
+          "package_name": "com.zego_call"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdQxYxva8i0rrANbkvxn7YK7EmdDh8LKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
