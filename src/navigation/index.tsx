@@ -3,12 +3,12 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import HomeScreen from '../screens/home';
-import ChatScreen from '../screens/chat';
 import type { RootStackParamList } from './types';
 import {
     ZegoCallInvitationDialog,
     ZegoUIKitPrebuiltCallInCallScreen,
     ZegoUIKitPrebuiltCallWaitingScreen,
+    ZegoUIKitPrebuiltCallFloatingMinimizedView,
 } from '@zegocloud/zego-uikit-prebuilt-call-rn';
 
 export * from './types';
@@ -34,8 +34,11 @@ export default function AppNavigation() {
                         contentStyle: { backgroundColor: '#ffffff' },
                     }}
                 >
-                    <Stack.Screen name="Home" component={HomeScreen} />
-                    <Stack.Screen name="Chat" component={ChatScreen} />
+                    <Stack.Screen
+                        name="Home"
+                        component={HomeScreen}
+                        options={{ title: 'Zego Call UIKit' }}
+                    />
                     <Stack.Screen
                         options={{ headerShown: false }}
                         name="ZegoUIKitPrebuiltCallWaitingScreen"
@@ -47,6 +50,7 @@ export default function AppNavigation() {
                         component={ZegoUIKitPrebuiltCallInCallScreen}
                     />
                 </Stack.Navigator>
+                <ZegoUIKitPrebuiltCallFloatingMinimizedView />
             </NavigationContainer>
         </SafeAreaProvider>
     );

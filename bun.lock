@@ -9,6 +9,7 @@
         "@react-native/new-app-screen": "0.88.0",
         "@react-navigation/native": "^7.5.1",
         "@react-navigation/native-stack": "^7.21.0",
+        "@sayem314/react-native-keep-awake": "^2.0.0",
         "@zegocloud/zego-uikit-prebuilt-call-rn": "^6.7.0",
         "@zegocloud/zego-uikit-rn": "^2.19.3",
         "react": "19.3.0",
@@ -16,13 +17,13 @@
         "react-native": "0.88.0",
         "react-native-device-info": "^15.0.2",
         "react-native-encrypted-storage": "^4.0.3",
-        "react-native-keep-awake": "4.0.0",
         "react-native-safe-area-context": "^5.10.1",
         "react-native-screens": "^4.30.0",
         "react-native-sound": "^0.13.0",
+        "react-native-uuid": "^2.0.4",
         "zego-callkit-react-native": "^1.0.6-alpha",
         "zego-express-engine-reactnative": "^3.25.0",
-        "zego-zim-react-native": "^3.2.0",
+        "zego-zim-react-native": "^2.20.0",
         "zego-zpns-react-native": "^2.8.4",
       },
       "devDependencies": {
@@ -1435,8 +1436,6 @@
 
     "react-native-encrypted-storage": ["react-native-encrypted-storage@4.0.3", "", { "peerDependencies": { "react": "*", "react-native": "*" } }, "sha512-0pJA4Aj2S1PIJEbU7pN/Qvf7JIJx3hFywx+i+bLHtgK0/6Zryf1V2xVsWcrD50dfiu3jY1eN2gesQ5osGxE7jA=="],
 
-    "react-native-keep-awake": ["react-native-keep-awake@4.0.0", "", {}, "sha512-0Fotox+eLXQooeibVs3P60yASYUWjtRw9MZNmbuHt5UZQrgUrAKsE4jm7gTr4tPU1m1RkwGzcgUFpcOkh/ec7g=="],
-
     "react-native-safe-area-context": ["react-native-safe-area-context@5.10.1", "", { "peerDependencies": { "react": "*", "react-native": "*" } }, "sha512-ax0T3cAHQIhuAjDQpJ9C1Le96aRiM9PF+Kmgg7Y8+mD7QJMEIx04cG0eG3EGUTdvymgOkCrkakgZFwuOIuNQGw=="],
 
     "react-native-screens": ["react-native-screens@4.30.0", "", { "dependencies": { "react-freeze": "^1.0.0", "warn-once": "^0.1.0" }, "peerDependencies": { "react": "*", "react-native": "*" } }, "sha512-FrZG/Q5gqoDu0SgP4d2Ly0qdio5DR1KdGPEYImhkz7tmrhpML4C39m6RYLGd5TVLHZwcCh8NPvW9rylevjD0uQ=="],
@@ -1719,7 +1718,7 @@
 
     "zego-express-engine-reactnative": ["zego-express-engine-reactnative@3.25.0", "", { "peerDependencies": { "react": "*", "react-native": "*" } }, "sha512-iqUOZPY0dPytRT94wuS3vAeVU66AdZM2XQmKiwqzLIIqs3tc+EZVFRObuEuriI33FJtC0aEZPKTOtsVgC7THUg=="],
 
-    "zego-zim-react-native": ["zego-zim-react-native@3.2.0", "", { "peerDependencies": { "react": "*", "react-native": "*" } }, "sha512-+MrgySbPQKSA9wvdiTVw9panuuJHNiTyz6gnKdz+wvkcTmMIDbEtf2FZgwfWf7HB+8cQ/GEXVAhfVC3QUpyX8w=="],
+    "zego-zim-react-native": ["zego-zim-react-native@2.28.0", "", { "peerDependencies": { "react": "*", "react-native": "*" } }, "sha512-XR1YyBXnK40Vaae10x8S7hOgwWc3hjf/Gli4LQSZHo5c+fi/796lSGthcT/4kWESohUlmbK5PFoFBR32b/A8Cg=="],
 
     "zego-zpns-react-native": ["zego-zpns-react-native@2.8.4", "", { "peerDependencies": { "react": "*", "react-native": "*" } }, "sha512-PbCCh2QB9HjZMNF7dmP3QSAG+PfoKFbrgOxkspFajtMobibqKAQ+ksoGZw/WmRRWwExJOeHockqKzsTod25WjQ=="],
 
